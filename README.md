@@ -26,16 +26,19 @@ The pipeline consists of three main components:
 ---
 
 ## 📁 Project Structure  
+
+```
 src/
 └── fine-tuning/
-├── init.py
-├── config.py           # Centralized configuration management
-├── dataset.py          # Dataset loading and preprocessing
-├── model.py            # Model initialization and LoRA setup
-├── collate_fn.py       # Batch collation and label masking
-├── train.py            # Training loop implementation
-├── main.py             # Training entry point
-└── evaluate.py         # Model evaluation pipeline
+    ├── __init__.py
+    ├── config.py           # Centralized configuration management
+    ├── dataset.py          # Dataset loading and preprocessing
+    ├── model.py            # Model initialization and LoRA setup
+    ├── collate_fn.py       # Batch collation and label masking
+    ├── train.py            # Training loop implementation
+    ├── main.py             # Training entry point
+    └── evaluate.py         # Model evaluation pipeline
+```
 
 ---
 
