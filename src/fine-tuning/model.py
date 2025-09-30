@@ -24,7 +24,7 @@ def import_model(config: Config):
         # (CPU/GPU) for optimal memory usage and performance
         low_cpu_mem_usage=True,  # Minimizes CPU RAM usage during model loading by loading
         # weights directly to target device when possible
-        max_memory={0: "36GiB"},  # Sets maximum memory limit for device 0 (first GPU)
+        max_memory={0: "40GiB"},  # Sets maximum memory limit for device 0 (first GPU)
         # Prevents out-of-memory errors by capping GPU usage
     )
 
